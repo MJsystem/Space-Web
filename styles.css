@@ -6,6 +6,7 @@
 
 body {
   font-family: Roboto, sans-serif;
+  background-image: url(https://daks2k3a4ib2z.cloudfront.net/5a7bc61b5301890001e60d87/5a7e684c38edac0001867ea9_SPACE-p-130x130q80.jpeg);
 }
 
 ul {
@@ -26,6 +27,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: var(--padding);
+  border-bottom: 1px solid #374d6b;
 }
 
 nav .nav__container {
@@ -49,4 +51,67 @@ nav .nav__container ul li {
 
 nav .nav__container ul li a {
   color: #374d6b;
+}
+
+.intro {
+}
+
+.intro header {
+  display: flex;
+  max-width: 1200px;
+  width: 150vh;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-left: 100px;
+  position: relative;
+  border-left: 1px solid #374d6b;
+  align-items: center;
+  padding-top: var(--padding);
+}
+
+.intro header img {
+  padding-top: 12px;
+}
+.intro header ul {
+  display: flex;
+}
+
+.intro header ul li a {
+  padding: var(--padding);
+  color: #c6c3bc;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.intro .titleContainer {
+  display: flex;
+  max-width: 1200px;
+  width: 150vh;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-left: 100px;
+  position: relative;
+  border-left: 1px solid #374d6b;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.intro .planContainer {
+  display: flex;
+  max-width: 1200px;
+  width: 150vh;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-left: 100px;
+  position: relative;
+  border-left: 1px solid #374d6b;
+  align-items: center;
+  padding-top: 5em;
+  color: white;
+}
+
+.intro .planContainer .planintro {
+  color: #c6c3bc;
+  font-size: 0.8em;
+  padding-left: 20px;
 }
