@@ -98,14 +98,15 @@ nav .nav__container ul li a {
 
 .intro .planContainer {
   display: flex;
+  flex-direction: column;
   max-width: 1200px;
   width: 150vh;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 100px;
   position: relative;
   border-left: 1px solid #374d6b;
-  align-items: center;
+  align-items: ;
   padding-top: 5em;
   color: white;
 }
@@ -114,4 +115,24 @@ nav .nav__container ul li a {
   color: #c6c3bc;
   font-size: 0.8em;
   padding-left: 20px;
+}
+
+.intro .planContainer .planner {
+  display: flex;
+  max-width: 1200px;
+  width: 150vh;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-left: 20px;
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10%;
+}
+
+.intro .planContainer .planner li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
